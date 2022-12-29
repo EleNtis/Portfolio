@@ -5,9 +5,22 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Fantasy', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  color:whitesmoke;
+  background-color: black;
 }
+ 
+h2 {
+  position:relative;
+  left:40%;
+  top:20%;
+}
+nav {
+  position: relative;
+  left: 80%;
+}
+
 
 h1,
 h2,
