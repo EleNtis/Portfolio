@@ -14,6 +14,7 @@ body {
 h3{
   color:white;
   font-family:cursive;
+  padding: 4%;
 }
 
 p {
@@ -68,6 +69,7 @@ header {
   position:absolute;
   left:40%;
   bottom: 40%
+
 }
 
 /* cards */
@@ -99,12 +101,15 @@ header {
 
 /*Contact me section */
 
+.contact-section{
+  padding: 5%;
+}
+
 .Get-in-touch {
   display: flex;
-  justify-content: center;
-  
-  
+  justify-content: center;   
 }
+
 .contact a {
   display:flex;
   justify-content: center;
