@@ -32,7 +32,6 @@ h6 {
 header {
   display: flex;
   gap: 2rem;
-  flex-wrap: wrap;
   font-size: large;
   font-weight:normal;
   font-family:cursive;
@@ -40,7 +39,6 @@ header {
 
 .nav {
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
   position: relative;
   left: 30%;
@@ -56,7 +54,6 @@ header {
 .hero-banner {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   padding: 60px;
   position: absolute;
   top: 20%;
@@ -67,7 +64,6 @@ header {
 .about-page-section {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   position: relative;
   left:40%;
   margin-top: 1%;
@@ -80,19 +76,20 @@ header {
 .work-page-section { 
   position:relative;
   margin-top: 5%;
-  padding: 5%;
+  padding: 3%;
 }
 
-.featured-card{
+.featured-card {
   display:grid;
-  margin-bottom: 6%; 
+  grid-template-rows: repeat(auto-fit, minmax(10rem, 1fr));
+  margin-bottom: 2%;    
 }
 
 .small-cards {
   display: grid;
   /*to adjust in different screen sizes*/
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 30px; 
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 3%; 
 }
 
 .card {
@@ -100,7 +97,7 @@ header {
 }
 
 .card_details {
-  padding: 10px;
+  padding: 2%;
   background: whitesmoke;
   text-align: center;
 }
@@ -120,7 +117,6 @@ header {
 .contact-section {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   position:relative;
   left:40%; 
   margin-top:10%;
@@ -134,8 +130,58 @@ header {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Media Queries */
+
+/* tablets */
 
 
+@media screen and (max-width:800px) {
+    .hero-banner{
+      padding: 10%;
+      top: 10%;
+    }
+    .nav{
+      position:absolute;
+      left: 0%;
+      }
+  }
 
+  /* mobile phones */
 
+@media screen and (max-width:480px) {
+  h1{
+    position:relative;
+    top: 100%;
+    right: 100%;
+    padding: 30%;
+    
+  }
 
+  .avatar{
+    width: 200%;
+    position:relative;
+    top:20%;
+    left: 60%;
+  }
+    
+  .hero-banner {
+    padding: 30%;
+    position:relative;
+    left:5%; 
+    margin-top: 20%;
+    margin-left: -10%;
+}
+.nav{
+position:absolute;
+left: 0%;
+}
+.about-page-section{
+  position: relative;
+  left:3%;
+}
+
+.contact-section{
+  position:absolute;
+  left:10%;
+   
+}
