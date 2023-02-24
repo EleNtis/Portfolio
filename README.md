@@ -1,17 +1,38 @@
 # Portfolio
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![HTML5](https://img.shields.io/badge/HTML5-55.9%25-orange)
+![CSS](https://img.shields.io/badge/CSS-44.1%25-blueviolet)
+
+
+## Deployed Website
+
+* Check out the live demo: [Portfolio](https://elentis.github.io/Portfolio/)
+
+## Contents
+
+* Description
+* Screenshots
+* Authors
+* Skills
+* License
+
 ## Description
 
-Created a personalized portfolio webpage.
+A personal website with responsive layout to showcase my web applications. 
 
-## Deployed application
+## Screenshots
+![Alt text](images/Portfolio%20Screenshot.png)
+![Alt text](images/Portfolio_Screenshot.png)
 
-* Check out the deployed application: [@Portfolio](https://elentis.github.io/Portfolio/)
+## Authors
 
-Tasks completed:
--Added name and avatar and links to sections about me, my work and my contact details.
--The navbar is linked with the corresponding sections.
--Added images for each projet in the work section of the page.
+* [Elle Ntipsyraki](https://github.com/EleNtis)
+
+## Skills
+
+* HTML
+* CSS
 
 ## License
 Please refer to the LICENSE in the repo.
