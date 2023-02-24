@@ -9,14 +9,6 @@
 
 * Check out the live demo: [Portfolio](https://elentis.github.io/Portfolio/)
 
-## Contents
-
-* Description
-* Screenshots
-* Authors
-* Skills
-* License
-
 ## Description
 
 A personal website with responsive layout to showcase my web applications. 
